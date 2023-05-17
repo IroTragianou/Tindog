@@ -1,0 +1,186 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+  font-weight: 500;
+}
+
+h2 {
+  line-height: 4rem;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #db4437;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15% 15%;
+  text-align: left;
+}
+
+.title-image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.phone-pic {
+  position: relative;
+}
+
+/* feature section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 8%;
+}
+
+.icon {
+  font-size: 5rem;
+  color: #db4437;
+  padding: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #db5837;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*
+press section */
+
+#press {
+  background-color: #db5837;
+  padding-bottom: 2%;
+}
+
+.press-logo {
+  width: 9%;
+  margin: 80px 20px 0;
+}
+
+/*
+Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #d84315;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+}
+
+.social-icon {
+  color: black;
+  margin: 3.5rem 0.5rem;
+}
+
+@media (max-width: 1108px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
